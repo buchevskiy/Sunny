@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A01477727AAC05F002F26DF /* CurrentWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A01477627AAC05F002F26DF /* CurrentWeatherData.swift */; };
+		3A01477927AAC670002F26DF /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A01477827AAC670002F26DF /* CurrentWeather.swift */; };
 		3A33972527A9AB5A00ED7752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A33972427A9AB5900ED7752 /* Assets.xcassets */; };
+		3A33972727A9D4AB00ED7752 /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A33972627A9D4AB00ED7752 /* NetworkWeatherManager.swift */; };
+		3A33972927A9D5FC00ED7752 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A33972827A9D59600ED7752 /* Constants.swift */; };
 		3A4AE1BB27A883760008A3EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4AE1BA27A883760008A3EC /* AppDelegate.swift */; };
 		3A4AE1BD27A883760008A3EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4AE1BC27A883760008A3EC /* SceneDelegate.swift */; };
 		3A4AE1BF27A883760008A3EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4AE1BE27A883760008A3EC /* ViewController.swift */; };
 		3A4AE1C227A883760008A3EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4AE1C027A883760008A3EC /* Main.storyboard */; };
 		3A4AE1C727A8837C0008A3EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4AE1C527A8837C0008A3EC /* LaunchScreen.storyboard */; };
-		3A4AE1D227A8837D0008A3EC /* SunnyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4AE1D127A8837D0008A3EC /* SunnyTests.swift */; };
-		3A4AE1DC27A8837D0008A3EC /* SunnyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4AE1DB27A8837D0008A3EC /* SunnyUITests.swift */; };
-		3A4AE1DE27A8837D0008A3EC /* SunnyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4AE1DD27A8837D0008A3EC /* SunnyUITestsLaunchTests.swift */; };
 		3A4AE1F027A889660008A3EC /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4AE1EF27A889660008A3EC /* AlertController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A01477627AAC05F002F26DF /* CurrentWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherData.swift; sourceTree = "<group>"; };
+		3A01477827AAC670002F26DF /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		3A33972427A9AB5900ED7752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A33972627A9D4AB00ED7752 /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
+		3A33972827A9D59600ED7752 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3A4AE1B727A883760008A3EC /* Sunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4AE1BA27A883760008A3EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A4AE1BC27A883760008A3EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,10 +51,7 @@
 		3A4AE1C627A8837C0008A3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A4AE1C827A8837C0008A3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A4AE1CD27A8837D0008A3EC /* SunnyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A4AE1D127A8837D0008A3EC /* SunnyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunnyTests.swift; sourceTree = "<group>"; };
 		3A4AE1D727A8837D0008A3EC /* SunnyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A4AE1DB27A8837D0008A3EC /* SunnyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunnyUITests.swift; sourceTree = "<group>"; };
-		3A4AE1DD27A8837D0008A3EC /* SunnyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunnyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3A4AE1EF27A889660008A3EC /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,8 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				3A4AE1B927A883760008A3EC /* Sunny */,
-				3A4AE1D027A8837D0008A3EC /* SunnyTests */,
-				3A4AE1DA27A8837D0008A3EC /* SunnyUITests */,
 				3A4AE1B827A883760008A3EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,23 +111,6 @@
 			path = Sunny;
 			sourceTree = "<group>";
 		};
-		3A4AE1D027A8837D0008A3EC /* SunnyTests */ = {
-			isa = PBXGroup;
-			children = (
-				3A4AE1D127A8837D0008A3EC /* SunnyTests.swift */,
-			);
-			path = SunnyTests;
-			sourceTree = "<group>";
-		};
-		3A4AE1DA27A8837D0008A3EC /* SunnyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3A4AE1DB27A8837D0008A3EC /* SunnyUITests.swift */,
-				3A4AE1DD27A8837D0008A3EC /* SunnyUITestsLaunchTests.swift */,
-			);
-			path = SunnyUITests;
-			sourceTree = "<group>";
-		};
 		3A4AE1EA27A883BC0008A3EC /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +125,10 @@
 		3A4AE1EB27A883D80008A3EC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3A33972827A9D59600ED7752 /* Constants.swift */,
+				3A33972627A9D4AB00ED7752 /* NetworkWeatherManager.swift */,
+				3A01477627AAC05F002F26DF /* CurrentWeatherData.swift */,
+				3A01477827AAC670002F26DF /* CurrentWeather.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -303,8 +290,12 @@
 			files = (
 				3A4AE1F027A889660008A3EC /* AlertController.swift in Sources */,
 				3A4AE1BF27A883760008A3EC /* ViewController.swift in Sources */,
+				3A01477927AAC670002F26DF /* CurrentWeather.swift in Sources */,
+				3A33972727A9D4AB00ED7752 /* NetworkWeatherManager.swift in Sources */,
 				3A4AE1BB27A883760008A3EC /* AppDelegate.swift in Sources */,
 				3A4AE1BD27A883760008A3EC /* SceneDelegate.swift in Sources */,
+				3A01477727AAC05F002F26DF /* CurrentWeatherData.swift in Sources */,
+				3A33972927A9D5FC00ED7752 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A4AE1D227A8837D0008A3EC /* SunnyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,8 +310,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A4AE1DE27A8837D0008A3EC /* SunnyUITestsLaunchTests.swift in Sources */,
-				3A4AE1DC27A8837D0008A3EC /* SunnyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
